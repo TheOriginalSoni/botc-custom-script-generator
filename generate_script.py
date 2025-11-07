@@ -5,7 +5,7 @@ import sys
 
 # default scriptname - change if just running
 # if using a commandline, specify the name as the first arg
-filename = "Trouble Brewing.json"
+filename = "Trouble with Diyas.json"
 if len(sys.argv) > 1:
 	filename = sys.argv[1]
 

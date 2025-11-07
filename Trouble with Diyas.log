@@ -1,0 +1,994 @@
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.11.1)  1 NOV 2025 10:17
+ restricted system commands enabled.
+**"Trouble with Diyas.tex"
+("./Trouble with Diyas.tex"
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+Lua module: luaotfload 2023-08-31 3.26 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 2.76 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "/home/thetis/.texlive2023/texmf-var
+/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-08-19.lua" from kpse-res
+olved path "/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader-2023-
+08-19.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.133
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/home/thetis/.texlive2023/texmf-var
+/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (./script.cls
+Document Class: script 
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /home/thetis/.texlive2023/texm
+f-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen139
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count193
+\Gm@cntv=\count194
+\c@Gm@tempcnt=\count195
+\Gm@bindingoffset=\dimen140
+\Gm@wd@mp=\dimen141
+\Gm@odd@mp=\dimen142
+\Gm@even@mp=\dimen143
+\Gm@layoutwidth=\dimen144
+\Gm@layoutheight=\dimen145
+\Gm@layouthoffset=\dimen146
+\Gm@layoutvoffset=\dimen147
+\Gm@dimlist=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count196
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen148
+\ar@mcellbox=\box51
+\extrarowheight=\dimen149
+\NC@list=\toks19
+\extratabsurround=\skip50
+\backup@length=\skip51
+\ar@cellbox=\box52
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tabu/tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed) + inter
+mediate FMi
+
+(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box53
+\sift@deathcycles=\count197
+\@vwid@loff=\dimen150
+\@vwid@roff=\dimen151
+)
+\c@taburow=\count198
+\tabu@nbcols=\count199
+\tabu@cnt=\count266
+\tabu@Xcol=\count267
+\tabu@alloc=\count268
+\tabu@nested=\count269
+\tabu@target=\dimen152
+\tabu@spreadtarget=\dimen153
+\tabu@naturalX=\dimen154
+\tabucolX=\dimen155
+\tabu@Xsum=\dimen156
+\extrarowdepth=\dimen157
+\abovetabulinesep=\dimen158
+\belowtabulinesep=\dimen159
+\tabustrutrule=\dimen160
+\tabu@thebody=\toks20
+\tabu@footnotes=\toks21
+\tabu@box=\box54
+\tabu@arstrutbox=\box55
+\tabu@hleads=\box56
+\tabu@vleads=\box57
+\tabu@cellskip=\skip52
+)
+(/usr/share/texlive/texmf-dist/tex/latex/vcell/vcell.sty
+Package: vcell 2021/04/30 v1.0.2
+\rowheight=\dimen161
+\rowht=\dimen162
+\rowdp=\dimen163
+\@cellcount=\count270
+\@cellusecount=\count271
+\@celltemp=\box58
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: luatex.def on input line 149.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2022/09/22 v1.2d Graphics/color driver for luatex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 107.
+)
+\Gin@req@height=\dimen164
+\Gin@req@width=\dimen165
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-01-22 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2024-01-04 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count272
+Inserting `l3color' in `luaotfload.parse_color'.
+\l__pdf_internal_box=\box59
+))
+Package: xparse 2023-10-10 L3 Experimental document command parser
+)
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2022/01/15 2.8a Font selection for XeLaTeX and LuaLaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaT
+eX
+\l__fontspec_script_int=\count273
+\l__fontspec_language_int=\count274
+\l__fontspec_strnum_int=\count275
+\l__fontspec_tmp_int=\count276
+\l__fontspec_tmpa_int=\count277
+\l__fontspec_tmpb_int=\count278
+\l__fontspec_tmpc_int=\count279
+\l__fontspec_em_int=\count280
+\l__fontspec_emdef_int=\count281
+\l__fontspec_strong_int=\count282
+\l__fontspec_strongdef_int=\count283
+\l__fontspec_tmpa_dim=\dimen166
+\l__fontspec_tmpb_dim=\dimen167
+\l__fontspec_tmpc_dim=\dimen168
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: Font family 'Lora(0)' created for font 'Lora' with
+(fontspec)             options [Ligatures=TeX,Path = Lora/,Extension =
+(fontspec)             .ttf,UprightFont = *-Regular,BoldFont =
+(fontspec)             *-Bold,ItalicFont = *-Italic,BoldItalicFont =
+(fontspec)             *-BoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[Lora/Lora-Regular.ttf]:mode=node;script=latn;langua
+ge=dflt;+tlig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[Lora/Lora-Bold.ttf]:mode=node;script=latn;language=
+dflt;+tlig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[Lora/Lora-Italic.ttf]:mode=node;script=latn;languag
+e=dflt;+tlig;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[Lora/Lora-BoldItalic.ttf]:mode=node;script=latn;lan
+guage=dflt;+tlig;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+\iconwidth=\skip53
+\descwidth=\skip54
+\betweenwidth=\skip55
+\c@chartypes=\count284
+\c@chars_in_type=\count285
+\nighticonwidth=\skip56
+\nightspacing=\skip57
+\fnightbox=\box60
+\onightbox=\box61
+\oheight=\skip58
+\fheight=\skip59
+\fwidth=\skip60
+\owidth=\skip61
+\diffh=\skip62
+\fillheight=\skip63
+\fillwidth=\skip64
+)
+("./Trouble with Diyas.aux")
+\openout1 = Trouble with Diyas.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 8
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(18.06749pt, 758.835pt, 18.06749pt)
+* v-part:(T,H,B)=(18.06749pt, 578.16002pt, 18.06749pt)
+* \paperwidth=794.96999pt
+* \paperheight=614.295pt
+* \textwidth=758.835pt
+* \textheight=578.16002pt
+* \oddsidemargin=-54.2025pt
+* \evensidemargin=-54.2025pt
+* \topmargin=-91.2025pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count286
+\scratchdimen=\dimen169
+\scratchbox=\box62
+\nofMPsegments=\count287
+\nofMParguments=\count288
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count289
+\MPscratchDim=\dimen170
+\MPnumerator=\count290
+\makeMPintoPDFobject=\count291
+\everyMPtoPDFconversion=\toks23
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks24
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 8.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 8.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 8.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 8.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 8.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 8.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 8.
+LaTeX Font Info:    Redeclaring math accent \check on input line 8.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 8.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 8.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 8.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 8.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 8.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/Lora(0)/m/n on input line 8.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 8.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/Lora(0)/m/n on input line 8.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/Lora(0)/m/n --> TU/Lora(0)/m/n on input line 8.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/Lora(0)/m/it on input line 8.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/Lora(0)/b/n on input line 8.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 8.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 8.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/Lora(0)/m/n --> TU/Lora(0)/b/n on input line 8.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/Lora(0)/b/it on input line 8.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 8.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 49.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 49.
+<./icons/washerwoman.png, id=1, 541.02126pt x 541.02126pt>
+File: ./icons/washerwoman.png Graphic file (type png)
+<use ./icons/washerwoman.png>
+Package luatex.def Info: ./icons/washerwoman.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.6841pt.
+<./icons/chef.png, id=3, 541.02126pt x 541.02126pt>
+File: ./icons/chef.png Graphic file (type png)
+<use ./icons/chef.png>
+Package luatex.def Info: ./icons/chef.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.6841pt.
+<./icons/librarian.png, id=5, 541.02126pt x 541.02126pt>
+File: ./icons/librarian.png Graphic file (type png)
+<use ./icons/librarian.png>
+Package luatex.def Info: ./icons/librarian.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.6841pt.
+<./icons/hanuman.png, id=7, 542.025pt x 542.025pt>
+File: ./icons/hanuman.png Graphic file (type png)
+<use ./icons/hanuman.png>
+Package luatex.def Info: ./icons/hanuman.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.69861pt.
+<./icons/empath.png, id=9, 541.02126pt x 541.02126pt>
+File: ./icons/empath.png Graphic file (type png)
+<use ./icons/empath.png>
+Package luatex.def Info: ./icons/empath.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.6841pt.
+<./icons/yudhishthir.png, id=11, 542.025pt x 542.025pt>
+File: ./icons/yudhishthir.png Graphic file (type png)
+<use ./icons/yudhishthir.png>
+Package luatex.def Info: ./icons/yudhishthir.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.69861pt.
+<./icons/undertaker.png, id=13, 541.02126pt x 541.02126pt>
+File: ./icons/undertaker.png Graphic file (type png)
+<use ./icons/undertaker.png>
+Package luatex.def Info: ./icons/undertaker.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.6841pt.
+<./icons/monk.png, id=15, 541.02126pt x 541.02126pt>
+File: ./icons/monk.png Graphic file (type png)
+<use ./icons/monk.png>
+Package luatex.def Info: ./icons/monk.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.6841pt.
+<./icons/virgin.png, id=17, 541.02126pt x 541.02126pt>
+File: ./icons/virgin.png Graphic file (type png)
+<use ./icons/virgin.png>
+Package luatex.def Info: ./icons/virgin.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.6841pt.
+<./icons/slayer.png, id=19, 541.02126pt x 541.02126pt>
+File: ./icons/slayer.png Graphic file (type png)
+<use ./icons/slayer.png>
+Package luatex.def Info: ./icons/slayer.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.6841pt.
+<./icons/kalki.png, id=21, 542.025pt x 542.025pt>
+File: ./icons/kalki.png Graphic file (type png)
+<use ./icons/kalki.png>
+Package luatex.def Info: ./icons/kalki.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.69861pt.
+<./icons/narasimha.png, id=23, 542.025pt x 542.025pt>
+File: ./icons/narasimha.png Graphic file (type png)
+<use ./icons/narasimha.png>
+Package luatex.def Info: ./icons/narasimha.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.69861pt.
+<./icons/mayor.png, id=25, 541.02126pt x 541.02126pt>
+File: ./icons/mayor.png Graphic file (type png)
+<use ./icons/mayor.png>
+Package luatex.def Info: ./icons/mayor.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.6841pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+
+ []
+
+<./icons/vibhishan.png, id=27, 542.025pt x 542.025pt>
+File: ./icons/vibhishan.png Graphic file (type png)
+<use ./icons/vibhishan.png>
+Package luatex.def Info: ./icons/vibhishan.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.69861pt.
+<./icons/curseofyayati.png, id=29, 542.025pt x 542.025pt>
+File: ./icons/curseofyayati.png Graphic file (type png)
+<use ./icons/curseofyayati.png>
+Package luatex.def Info: ./icons/curseofyayati.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.69861pt.
+<./icons/recluse.png, id=31, 541.02126pt x 541.02126pt>
+File: ./icons/recluse.png Graphic file (type png)
+<use ./icons/recluse.png>
+Package luatex.def Info: ./icons/recluse.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.6841pt.
+<./icons/saint.png, id=33, 541.02126pt x 541.02126pt>
+File: ./icons/saint.png Graphic file (type png)
+<use ./icons/saint.png>
+Package luatex.def Info: ./icons/saint.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.6841pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+
+ []
+
+<./icons/poisoner.png, id=35, 541.02126pt x 541.02126pt>
+File: ./icons/poisoner.png Graphic file (type png)
+<use ./icons/poisoner.png>
+Package luatex.def Info: ./icons/poisoner.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.6841pt.
+<./icons/hiranyakashipu.png, id=37, 542.025pt x 542.025pt>
+File: ./icons/hiranyakashipu.png Graphic file (type png)
+<use ./icons/hiranyakashipu.png>
+Package luatex.def Info: ./icons/hiranyakashipu.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.69861pt.
+<./icons/scarletwoman.png, id=39, 541.02126pt x 541.02126pt>
+File: ./icons/scarletwoman.png Graphic file (type png)
+<use ./icons/scarletwoman.png>
+Package luatex.def Info: ./icons/scarletwoman.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.6841pt.
+<./icons/baron.png, id=41, 541.02126pt x 541.02126pt>
+File: ./icons/baron.png Graphic file (type png)
+<use ./icons/baron.png>
+Package luatex.def Info: ./icons/baron.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.6841pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+
+ []
+
+<./icons/shakuni.png, id=43, 542.025pt x 542.025pt>
+File: ./icons/shakuni.png Graphic file (type png)
+<use ./icons/shakuni.png>
+Package luatex.def Info: ./icons/shakuni.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.69861pt.
+<./icons/raavana.png, id=45, 542.025pt x 542.025pt>
+File: ./icons/raavana.png Graphic file (type png)
+<use ./icons/raavana.png>
+Package luatex.def Info: ./icons/raavana.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.69861pt.
+<./icons/imp.png, id=47, 541.02126pt x 541.02126pt>
+File: ./icons/imp.png Graphic file (type png)
+<use ./icons/imp.png>
+Package luatex.def Info: ./icons/imp.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.6841pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+
+ []
+
+File: ./icons/washerwoman.png Graphic file (type png)
+<use ./icons/washerwoman.png>
+Package luatex.def Info: ./icons/washerwoman.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.6841pt.
+File: ./icons/chef.png Graphic file (type png)
+<use ./icons/chef.png>
+Package luatex.def Info: ./icons/chef.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.6841pt.
+File: ./icons/librarian.png Graphic file (type png)
+<use ./icons/librarian.png>
+Package luatex.def Info: ./icons/librarian.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.6841pt.
+File: ./icons/hanuman.png Graphic file (type png)
+<use ./icons/hanuman.png>
+Package luatex.def Info: ./icons/hanuman.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.69861pt.
+File: ./icons/empath.png Graphic file (type png)
+<use ./icons/empath.png>
+Package luatex.def Info: ./icons/empath.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.6841pt.
+File: ./icons/yudhishthir.png Graphic file (type png)
+<use ./icons/yudhishthir.png>
+Package luatex.def Info: ./icons/yudhishthir.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.69861pt.
+File: ./icons/undertaker.png Graphic file (type png)
+<use ./icons/undertaker.png>
+Package luatex.def Info: ./icons/undertaker.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.6841pt.
+File: ./icons/monk.png Graphic file (type png)
+<use ./icons/monk.png>
+Package luatex.def Info: ./icons/monk.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.6841pt.
+File: ./icons/virgin.png Graphic file (type png)
+<use ./icons/virgin.png>
+Package luatex.def Info: ./icons/virgin.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.6841pt.
+File: ./icons/slayer.png Graphic file (type png)
+<use ./icons/slayer.png>
+Package luatex.def Info: ./icons/slayer.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.6841pt.
+File: ./icons/kalki.png Graphic file (type png)
+<use ./icons/kalki.png>
+Package luatex.def Info: ./icons/kalki.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.69861pt.
+File: ./icons/narasimha.png Graphic file (type png)
+<use ./icons/narasimha.png>
+Package luatex.def Info: ./icons/narasimha.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.69861pt.
+File: ./icons/mayor.png Graphic file (type png)
+<use ./icons/mayor.png>
+Package luatex.def Info: ./icons/mayor.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.6841pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+
+ []
+
+File: ./icons/vibhishan.png Graphic file (type png)
+<use ./icons/vibhishan.png>
+Package luatex.def Info: ./icons/vibhishan.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.69861pt.
+File: ./icons/curseofyayati.png Graphic file (type png)
+<use ./icons/curseofyayati.png>
+Package luatex.def Info: ./icons/curseofyayati.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.69861pt.
+File: ./icons/recluse.png Graphic file (type png)
+<use ./icons/recluse.png>
+Package luatex.def Info: ./icons/recluse.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.6841pt.
+File: ./icons/saint.png Graphic file (type png)
+<use ./icons/saint.png>
+Package luatex.def Info: ./icons/saint.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.6841pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+
+ []
+
+File: ./icons/poisoner.png Graphic file (type png)
+<use ./icons/poisoner.png>
+Package luatex.def Info: ./icons/poisoner.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.6841pt.
+File: ./icons/hiranyakashipu.png Graphic file (type png)
+<use ./icons/hiranyakashipu.png>
+Package luatex.def Info: ./icons/hiranyakashipu.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.69861pt.
+File: ./icons/scarletwoman.png Graphic file (type png)
+<use ./icons/scarletwoman.png>
+Package luatex.def Info: ./icons/scarletwoman.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.6841pt.
+File: ./icons/baron.png Graphic file (type png)
+<use ./icons/baron.png>
+Package luatex.def Info: ./icons/baron.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.6841pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+
+ []
+
+File: ./icons/shakuni.png Graphic file (type png)
+<use ./icons/shakuni.png>
+Package luatex.def Info: ./icons/shakuni.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.69861pt.
+File: ./icons/raavana.png Graphic file (type png)
+<use ./icons/raavana.png>
+Package luatex.def Info: ./icons/raavana.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.69861pt.
+File: ./icons/imp.png Graphic file (type png)
+<use ./icons/imp.png>
+Package luatex.def Info: ./icons/imp.png  used on input line 49.
+(luatex.def)             Requested size: 33.24467pt x 23.6841pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+
+ []
+
+
+Overfull \hbox (3.5091pt too wide) in paragraph at lines 49--50
+[][]   []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<./icons/washerwoman.png><./i
+cons/chef.png><./icons/librarian.png><./icons/Hanuman.png><./icons/empath.png><.
+/icons/Yudhishthir.png><./icons/undertaker.png><./icons/monk.png><./icons/virgin
+.png><./icons/slayer.png><./icons/Kalki.png><./icons/narasimha.png><./icons/mayo
+r.png><./icons/Vibhishan.png><./icons/curseofyayati.png><./icons/recluse.png><./
+icons/saint.png><./icons/poisoner.png><./icons/Hiranyakashipu.png><./icons/scarl
+etwoman.png><./icons/baron.png><./icons/Shakuni.png><./icons/Raavana.png><./icon
+s/imp.png>]
+File: ./icons/curseofyayati.png Graphic file (type png)
+<use ./icons/curseofyayati.png>
+Package luatex.def Info: ./icons/curseofyayati.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.4551pt.
+File: ./icons/hiranyakashipu.png Graphic file (type png)
+<use ./icons/hiranyakashipu.png>
+Package luatex.def Info: ./icons/hiranyakashipu.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.4551pt.
+File: ./icons/poisoner.png Graphic file (type png)
+<use ./icons/poisoner.png>
+Package luatex.def Info: ./icons/poisoner.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.44435pt.
+File: ./icons/raavana.png Graphic file (type png)
+<use ./icons/raavana.png>
+Package luatex.def Info: ./icons/raavana.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.4551pt.
+File: ./icons/vibhishan.png Graphic file (type png)
+<use ./icons/vibhishan.png>
+Package luatex.def Info: ./icons/vibhishan.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.4551pt.
+File: ./icons/chef.png Graphic file (type png)
+<use ./icons/chef.png>
+Package luatex.def Info: ./icons/chef.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.44435pt.
+File: ./icons/librarian.png Graphic file (type png)
+<use ./icons/librarian.png>
+Package luatex.def Info: ./icons/librarian.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.44435pt.
+File: ./icons/washerwoman.png Graphic file (type png)
+<use ./icons/washerwoman.png>
+Package luatex.def Info: ./icons/washerwoman.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.44435pt.
+File: ./icons/hanuman.png Graphic file (type png)
+<use ./icons/hanuman.png>
+Package luatex.def Info: ./icons/hanuman.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.4551pt.
+File: ./icons/empath.png Graphic file (type png)
+<use ./icons/empath.png>
+Package luatex.def Info: ./icons/empath.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.44435pt.
+File: ./icons/yudhishthir.png Graphic file (type png)
+<use ./icons/yudhishthir.png>
+Package luatex.def Info: ./icons/yudhishthir.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.4551pt.
+File: ./icons/hiranyakashipu.png Graphic file (type png)
+<use ./icons/hiranyakashipu.png>
+Package luatex.def Info: ./icons/hiranyakashipu.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.4551pt.
+File: ./icons/poisoner.png Graphic file (type png)
+<use ./icons/poisoner.png>
+Package luatex.def Info: ./icons/poisoner.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.44435pt.
+File: ./icons/monk.png Graphic file (type png)
+<use ./icons/monk.png>
+Package luatex.def Info: ./icons/monk.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.44435pt.
+File: ./icons/imp.png Graphic file (type png)
+<use ./icons/imp.png>
+Package luatex.def Info: ./icons/imp.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.44435pt.
+File: ./icons/shakuni.png Graphic file (type png)
+<use ./icons/shakuni.png>
+Package luatex.def Info: ./icons/shakuni.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.4551pt.
+File: ./icons/raavana.png Graphic file (type png)
+<use ./icons/raavana.png>
+Package luatex.def Info: ./icons/raavana.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.4551pt.
+File: ./icons/scarletwoman.png Graphic file (type png)
+<use ./icons/scarletwoman.png>
+Package luatex.def Info: ./icons/scarletwoman.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.44435pt.
+File: ./icons/narasimha.png Graphic file (type png)
+<use ./icons/narasimha.png>
+Package luatex.def Info: ./icons/narasimha.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.4551pt.
+File: ./icons/vibhishan.png Graphic file (type png)
+<use ./icons/vibhishan.png>
+Package luatex.def Info: ./icons/vibhishan.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.4551pt.
+File: ./icons/empath.png Graphic file (type png)
+<use ./icons/empath.png>
+Package luatex.def Info: ./icons/empath.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.44435pt.
+File: ./icons/yudhishthir.png Graphic file (type png)
+<use ./icons/yudhishthir.png>
+Package luatex.def Info: ./icons/yudhishthir.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.4551pt.
+File: ./icons/undertaker.png Graphic file (type png)
+<use ./icons/undertaker.png>
+Package luatex.def Info: ./icons/undertaker.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.44435pt.
+File: ./icons/kalki.png Graphic file (type png)
+<use ./icons/kalki.png>
+Package luatex.def Info: ./icons/kalki.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.4551pt.
+\@cellbox1=\box63
+\@cellbox2=\box64
+File: ./icons/curseofyayati.png Graphic file (type png)
+<use ./icons/curseofyayati.png>
+Package luatex.def Info: ./icons/curseofyayati.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.4551pt.
+File: ./icons/hiranyakashipu.png Graphic file (type png)
+<use ./icons/hiranyakashipu.png>
+Package luatex.def Info: ./icons/hiranyakashipu.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.4551pt.
+File: ./icons/poisoner.png Graphic file (type png)
+<use ./icons/poisoner.png>
+Package luatex.def Info: ./icons/poisoner.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.44435pt.
+File: ./icons/raavana.png Graphic file (type png)
+<use ./icons/raavana.png>
+Package luatex.def Info: ./icons/raavana.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.4551pt.
+File: ./icons/vibhishan.png Graphic file (type png)
+<use ./icons/vibhishan.png>
+Package luatex.def Info: ./icons/vibhishan.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.4551pt.
+File: ./icons/chef.png Graphic file (type png)
+<use ./icons/chef.png>
+Package luatex.def Info: ./icons/chef.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.44435pt.
+File: ./icons/librarian.png Graphic file (type png)
+<use ./icons/librarian.png>
+Package luatex.def Info: ./icons/librarian.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.44435pt.
+File: ./icons/washerwoman.png Graphic file (type png)
+<use ./icons/washerwoman.png>
+Package luatex.def Info: ./icons/washerwoman.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.44435pt.
+File: ./icons/hanuman.png Graphic file (type png)
+<use ./icons/hanuman.png>
+Package luatex.def Info: ./icons/hanuman.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.4551pt.
+File: ./icons/empath.png Graphic file (type png)
+<use ./icons/empath.png>
+Package luatex.def Info: ./icons/empath.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.44435pt.
+File: ./icons/yudhishthir.png Graphic file (type png)
+<use ./icons/yudhishthir.png>
+Package luatex.def Info: ./icons/yudhishthir.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.4551pt.
+File: ./icons/hiranyakashipu.png Graphic file (type png)
+<use ./icons/hiranyakashipu.png>
+Package luatex.def Info: ./icons/hiranyakashipu.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.4551pt.
+File: ./icons/poisoner.png Graphic file (type png)
+<use ./icons/poisoner.png>
+Package luatex.def Info: ./icons/poisoner.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.44435pt.
+File: ./icons/monk.png Graphic file (type png)
+<use ./icons/monk.png>
+Package luatex.def Info: ./icons/monk.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.44435pt.
+File: ./icons/imp.png Graphic file (type png)
+<use ./icons/imp.png>
+Package luatex.def Info: ./icons/imp.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.44435pt.
+File: ./icons/shakuni.png Graphic file (type png)
+<use ./icons/shakuni.png>
+Package luatex.def Info: ./icons/shakuni.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.4551pt.
+File: ./icons/raavana.png Graphic file (type png)
+<use ./icons/raavana.png>
+Package luatex.def Info: ./icons/raavana.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.4551pt.
+File: ./icons/scarletwoman.png Graphic file (type png)
+<use ./icons/scarletwoman.png>
+Package luatex.def Info: ./icons/scarletwoman.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.44435pt.
+File: ./icons/narasimha.png Graphic file (type png)
+<use ./icons/narasimha.png>
+Package luatex.def Info: ./icons/narasimha.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.4551pt.
+File: ./icons/vibhishan.png Graphic file (type png)
+<use ./icons/vibhishan.png>
+Package luatex.def Info: ./icons/vibhishan.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.4551pt.
+File: ./icons/empath.png Graphic file (type png)
+<use ./icons/empath.png>
+Package luatex.def Info: ./icons/empath.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.44435pt.
+File: ./icons/yudhishthir.png Graphic file (type png)
+<use ./icons/yudhishthir.png>
+Package luatex.def Info: ./icons/yudhishthir.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.4551pt.
+File: ./icons/undertaker.png Graphic file (type png)
+<use ./icons/undertaker.png>
+Package luatex.def Info: ./icons/undertaker.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.44435pt.
+File: ./icons/kalki.png Graphic file (type png)
+<use ./icons/kalki.png>
+Package luatex.def Info: ./icons/kalki.png  used on input line 85.
+(luatex.def)             Requested size: 21.68121pt x 15.4551pt.
+\@cellbox1=\box65
+\@cellbox2=\box66
+
+Overfull \hbox (3.5091pt too wide) in paragraph at lines 85--86
+[][]   []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+[2] ("./Trouble with Diyas.aux")
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+ ***********
+)
+
+Here is how much of LuaTeX's memory you used:
+ 6845 strings out of 476553
+ 195422,1977958 words of node,token memory allocated
+ 50229 words of node memory still in use:
+   1231 hlist, 172 vlist, 363 rule, 70 disc, 83 local_par, 374 math, 2106 glue, 
+376 kern, 310 penalty, 782 glyph, 1591 attribute, 54 glue_spec, 1591 attribute_l
+ist, 1 write, 36 pdf_colorstack, 64 pdf_setmatrix, 64 pdf_save, 64 pdf_restore n
+odes
+   avail lists: 1:2,2:122,3:806,4:72,5:1764,6:235,7:11075,8:3,9:2838,10:12,11:49
+4
+ 28304 multiletter control sequences out of 65536+600000
+ 49 fonts using 3100687 bytes
+ 94i,21n,102p,531b,656s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<./Lora/Lora-BoldItalic.ttf><./Lora/Lora-Regular.ttf><./Lora/Lora-Bold.ttf><./Lo
+ra/Lora-Italic.ttf></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy9.pfb>
+Output written on Trouble with Diyas.pdf (2 pages, 2440437 bytes).
+
+PDF statistics: 332 PDF objects out of 1000 (max. 8388607)
+ 121 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 131072)
+ 1441 words of extra memory for PDF output out of 10000 (max. 100000000)
+

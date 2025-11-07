@@ -26,3 +26,13 @@ You can also edit the .tex file directly to add spacing and custom things, scrip
 
 ![Trouble Brewing Example](https://github.com/LectronPusher/botc-custom-script-generator/blob/main/Trouble%20Brewing%20front.png?raw=true)
 ![Trouble Brewing Example](https://github.com/LectronPusher/botc-custom-script-generator/blob/main/Trouble%20Brewing%20back.png?raw=true)
+
+
+### What SOni did
+
+```bash
+python generate_script.py
+lualatex Trouble\ with\ Diyas.tex 
+mutool poster -x 2 Trouble\ with\ Diyas.pdf input1.pdf
+pdftk input1.pdf cat 2-3 output Trouble\ with\ Diyas\ \(print\).pdf
+```
