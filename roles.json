@@ -1,319 +1,374 @@
 [
-  {
-    "id": "hanuman",
-    "name": "Hanuman",
-    "edition": "tb",
-    "team": "townsfolk",
-    "firstNight": 18,
-    "firstNightReminder": "You start knowing 3 good characters. One is in play, one is a demon bluff and one is not in play. You don't know which is which.",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": ["Townsfolk",
-        "Wrong"],
-    "setup": false,
-    "ability": "You start knowing 3 good characters. One is in play, one is a demon bluff and one is not in play. You don't know which is which."
-  },
-  {
-    "id": "washerwoman",
-    "name": "Washerwoman",
-    "edition": "tb",
-    "team": "townsfolk",
-    "firstNight": 17,
-    "firstNightReminder": "Show the character token of a Townsfolk in play. Point to two players, one of which is that character.",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": ["Townsfolk",
-        "Wrong"],
-    "setup": false,
-    "ability": "You start knowing that 1 of 2 players is a particular Townsfolk."
-  },
-  {
-    "id": "librarian",
-    "name": "Librarian",
-    "edition": "tb",
-    "team": "townsfolk",
-    "firstNight": 16,
-    "firstNightReminder": "Show the character token of an Outsider in play. Point to two players, one of which is that character.",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": ["Outsider",
-        "Wrong"],
-    "setup": false,
-    "ability": "You start knowing that 1 of 2 players is a particular Outsider. (Or that zero are in play.)"
-  },
-  {
-    "id": "chef",
-    "name": "Chef",
-    "edition": "tb",
-    "team": "townsfolk",
-    "firstNight": 15,
-    "firstNightReminder": "Show the finger signal (0, 1, 2, \u2026) for the number of pairs of neighbouring evil players.",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "ability": "You start knowing how many pairs of evil players there are."
-  },
-  {
-    "id": "empath",
-    "name": "Empath",
-    "edition": "tb",
-    "team": "townsfolk",
-    "firstNight": 19,
-    "firstNightReminder": "Show the finger signal (0, 1, 2) for the number of evil alive neighbours of the Empath.",
-    "otherNight": 20,
-    "otherNightReminder": "Show the finger signal (0, 1, 2) for the number of evil neighbours.",
-    "reminders": [],
-    "setup": false,
-    "ability": "Each night, you learn how many of your 2 alive neighbours are evil."
-  },
-  {
-    "id": "yudhishthir",
-    "name": "Yudhishthir",
-    "edition": "tb",
-    "team": "townsfolk",
-    "firstNight": 20,
-    "firstNightReminder": "Each night, choose two players. Learn how many of them are evil.",
-    "otherNight": 21,
-    "otherNightReminder": "Each night, choose two players. Learn how many of them are evil.",
-    "reminders": [],
-    "setup": false,
-    "ability": "You are \"mad\" that you are Yudhishthir, or else you lose your ability. Each night, choose two players. Learn how many of them are evil."
-  },
-  {
-    "id": "undertaker",
-    "name": "Undertaker",
-    "edition": "tb",
-    "team": "townsfolk",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 22,
-    "otherNightReminder": "If a player was executed today: Show that player\u2019s character token.",
-    "reminders": ["Executed"],
-    "setup": false,
-    "ability": "Each night*, you learn which character died by execution today."
-  },
-  {
-    "id": "monk",
-    "name": "Monk",
-    "edition": "tb",
-    "team": "townsfolk",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 13,
-    "otherNightReminder": "The previously protected player is no longer protected. The Monk points to a player not themself. Mark that player 'Protected'.",
-    "reminders": ["Protected"],
-    "setup": false,
-    "ability": "Each night*, choose a player (not yourself): they are safe from the Demon tonight."
-  },
-  {
-    "id": "kalki",
-    "name": "Kalki",
-    "edition": "tb",
-    "team": "townsfolk",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 23,
-    "otherNightReminder": "If you were killed by the Demon in the night, you come back to life in the night when there are 4 or fewer alive, with a not-in-play townsfolk ability.",
-    "reminders": [],
-    "setup": false,
-    "ability": "If you were killed by the Demon in the night, you come back to life in the night when there are 4 or fewer alive, with a not-in-play townsfolk ability."
-  },
-  {
-    "id": "virgin",
-    "name": "Virgin",
-    "edition": "tb",
-    "team": "townsfolk",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": ["No ability"],
-    "setup": false,
-    "ability": "The 1st time you are nominated, if the nominator is a Townsfolk, they are executed immediately."
-  },
-  {
-    "id": "slayer",
-    "name": "Slayer",
-    "edition": "tb",
-    "team": "townsfolk",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": ["No ability"],
-    "setup": false,
-    "ability": "Once per game, during the day, publicly choose a player: if they are the Demon, they die."
-  },
-  {
-    "id": "narasimha",
-    "name": "Narasimha",
-    "edition": "tb",
-    "team": "townsfolk",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 18,
-    "otherNightReminder": "If Hiranyakashipu is your alive neighbour, they die (not the first night). [+ Hiranyakashipu]",
-    "reminders": [],
-    "setup": false,
-    "ability": "If Hiranyakashipu is your alive neighbour, they die (not the first night). [+ Hiranyakashipu]"
-  },
-  {
-    "id": "mayor",
-    "name": "Mayor",
-    "edition": "tb",
-    "team": "townsfolk",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "ability": "If only 3 players live & no execution occurs, your team wins. If you die at night, another player might die instead."
-  },
-  {
-    "id": "vibhishan",
-    "name": "Vibhishan",
-    "edition": "tb",
-    "team": "outsider",
-    "firstNight": 14,
-    "firstNightReminder": "You start as an Evil player. If dead equal or outnumber the living, you switch alignments and become good.",
-    "otherNight": 19,
-    "otherNightReminder": "You start as an Evil player. If dead equal or outnumber the living, you switch alignments and become good.",
-    "reminders": ["Evil", "Good"],
-    "setup": false,
-    "ability": "You start as an Evil player. If dead equal or outnumber the living, you switch alignments and become good."
-  },
-  {
-    "id": "curseofyayati",
-    "name": "Curse of Yayati",
-    "edition": "tb",
-    "team": "outsider",
-    "firstNight": 10,
-    "firstNightReminder": "",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "remindersGlobal": ["Cursed"],
-    "setup": true,
-    "ability": "1 Townsfolk starts unknowingly with the Curse of Yayati. The Curse passes to the person that nominates them. A player with the Curse is Drunk and might register as Evil, minion or demon."
-  },
-  {
-    "id": "recluse",
-    "name": "Recluse",
-    "edition": "tb",
-    "team": "outsider",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "ability": "You might register as evil & as a Minion or Demon, even if dead."
-  },
-  {
-    "id": "saint",
-    "name": "Saint",
-    "edition": "tb",
-    "team": "outsider",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "ability": "If you die by execution, your team loses."
-  },
-  {
-    "id": "poisoner",
-    "name": "Poisoner",
-    "edition": "tb",
-    "team": "minion",
-    "firstNight": 12,
-    "firstNightReminder": "The Poisoner points to a player. That player is poisoned.",
-    "otherNight": 12,
-    "otherNightReminder": "The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.",
-    "reminders": ["Poisoned"],
-    "setup": false,
-    "ability": "Each night, choose a player: they are poisoned tonight and tomorrow day."
-  },
-  {
-    "id": "hiranyakashipu",
-    "name": "Hiranyakashipu",
-    "edition": "tb",
-    "team": "minion",
-    "firstNight": 11,
-    "firstNightReminder": "You keep your eyes open at night. If Narasimha is your alive neighbour, you die. [+ Narasimha]",
-    "otherNight": 11,
-    "otherNightReminder": "If Narasimha is your alive neighbour, you die.",
-    "reminders": [],
-    "setup": false,
-    "ability": "You cannot die by execution. Everyone knows who you are. You keep your eyes open at night. If Narasimha is your alive neighbour, you die."
-  },
-  {
-    "id": "scarletwoman",
-    "name": "Scarlet Woman",
-    "edition": "tb",
-    "team": "minion",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 17,
-    "otherNightReminder": "If the Scarlet Woman became the Demon today: Show the 'You are' card, then the demon token.",
-    "reminders": ["Demon"],
-    "setup": false,
-    "ability": "If there are 5 or more players alive & the Demon dies, you become the Demon."
-  },
-  {
-    "id": "baron",
-    "name": "Baron",
-    "edition": "tb",
-    "team": "minion",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": true,
-    "ability": "There are extra Outsiders in play. [+2 Outsiders]"
-  },
-  {
-    "id": "imp",
-    "name": "Imp",
-    "edition": "tb",
-    "team": "demon",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 14,
-    "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.",
-    "reminders": ["Dead"],
-    "setup": false,
-    "ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp."
-  },
-  {
-    "id": "shakuni",
-    "name": "Shakuni",
-    "edition": "tb",
-    "team": "demon",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 15,
-    "otherNightReminder": "Each night* choose a player, they die. When choosing the player, guess what character the player is. If correct, you get to pick again.",
-    "reminders": ["Dies"],
-    "setup": false,
-    "ability": "Each night* choose a player, they die. When choosing the player, guess what character the player is. If correct, you get to pick again."
-  },
-  {
-    "id": "raavana",
-    "name": "Raavana",
-    "edition": "tb",
-    "team": "demon",
-    "firstNight": 13,
-    "firstNightReminder": "Choose a Townsfolk ability to be disguised as. Gain that ability.",
-    "otherNight": 16,
-    "otherNightReminder": "Choose a player, they die.",
-    "reminders": ["Dead"],
-    "setup": false,
-    "ability": "Each night*, choose a player, they die. When receiving bluffs, choose one of them. You gain that ability and may register as good and that character to all Townsfolk abilities.  [+1 Outsider]"
-  }
+{
+  "id": "chiranjeevi",
+  "edition": "diyas",
+  "firstNightReminder": "The evil team learns what Outsiders are in play. [-1 or +0 or +1 Outsider]",
+  "remindersGlobal": [
+    "Learns Outsiders"
+  ],
+  "name": "Chiranjeevi",
+  "team": "fabled",
+  "ability": "The evil team learns what Outsiders are in play. [-1 or +0 or +1 Outsider]",
+  "firstNight": 13
+},
+{
+  "id": "hanuman",
+  "edition": "diyas",
+  "firstNightReminder": "You start knowing 3 good characters. One is in play, one is a demon bluff and one is not in play.",
+  "reminders": [
+    "In Play character"
+  ],
+  "name": "Hanuman",
+  "team": "townsfolk",
+  "ability": "You start knowing 3 good characters. One is in play, one is a demon bluff and one is not in play. ",
+  "flavor": "Hanuman is someone that bridges humans and animals together, and also infiltrates enemy lines and comes back with information.",
+  "firstNight": 22
+},
+{
+  "id": "karna",
+  "edition": "diyas",
+  "firstNightReminder": "You start knowing 2 good players. Choose one to recieve Kavacha (protected against executions), the other Kundala (protected against the demon).",  
+  "reminders": [
+    "Knows",
+    "Knows",
+    "Kavacha (safe from execution)",
+    "Kandala (safe from demon)"
+  ],
+  "name": "Karna",
+  "team": "townsfolk",
+  "ability": "You start knowing 2 good players. Choose one to recieve Kavacha (protected against executions), the other Kundala (protected against the demon).",
+  "firstNight": 20
+},
+{
+  "id": "drona",
+  "edition": "diyas",
+  "firstNightReminder": "You start knowing 1 good player and their character as your student. If they die, you get a new student.",
+  "otherNightReminder": "You start knowing 1 good player and their character as your student. If they die, you get a new student.",
+  "reminders": [
+    "Student."
+  ],
+  "name": "Drona",
+  "team": "townsfolk",
+  "ability": "You start knowing 1 good player and their character as your student. If they die, you get a new student.",
+  "firstNight": 21,
+  "otherNight": 19
+},
+{
+  "id": "sita",
+  "edition": "diyas",
+  "firstNightReminder": "Pick a consort. Each night, learn which characters picked either you or your consort.",
+  "otherNightReminder": "Each night, learn which characters picked either you or your consort.",
+  "reminders": [
+    "Consort"
+  ],
+  "name": "Sita",
+  "team": "townsfolk",
+  "ability": "Pick a consort. Each night, learn which characters picked either you or your consort.",
+  "firstNight": 16,
+  "otherNight": 21
+},
+{
+  "id": "laxman",
+  "edition": "diyas",
+  "firstNightReminder": "Each night, choose a player (different from last night). They cannot die if both their alive neighbours are good.",
+  "otherNightReminder": "Each night, choose a player (different from last night). They cannot die if both their alive neighbours are good.",
+  "reminders": [
+    "Safe from Death"
+  ],
+  "name": "Laxman",
+  "team": "townsfolk",
+  "ability": "Each night, choose a player (different from last night). They cannot die if both their alive neighbours are good.",
+  "firstNight": 23,
+  "otherNight": 6
+},
+{
+  "id": "yudhishthir",
+  "edition": "diyas",
+  "firstNightReminder": "Each night, choose 2 players. Learn how many of them are evil.",
+  "otherNightReminder": "Each night, choose 2 players. Learn how many of them are evil.",
+  "reminders": [
+    "No ability"
+  ],
+  "name": "Yudhishthir",
+  "team": "townsfolk",
+  "ability": "Each night, choose 2 players. Learn how many of them are evil. You must be \"mad\" as Yudhisthir, else you lose this ability.",
+  "firstNight": 24,
+  "otherNight": 17
+},
+{
+  "id": "krishna",
+  "edition": "diyas",
+  "firstNightReminder": "Each night, learn how long the longest chain of alive good Townsfolk is.",
+  "otherNightReminder": "Each night, learn how long the longest chain of alive good Townsfolk is.",
+  "name": "Krishna",
+  "team": "townsfolk",
+  "ability": "Each night, learn how long the longest chain of alive good Townsfolk is.",
+  "firstNight": 25,
+  "otherNight": 18
+},
+{
+  "id": "bhishma",
+  "edition": "diyas",
+  "otherNightReminder": "Once per game, at night*, choose if you wish to die. Only you die that night.",
+  "reminders": [
+    "Used"
+  ],
+  "name": "Bhishma",
+  "team": "townsfolk",
+  "ability": "Once per game, at night*, choose if you wish to die. Only you die that night.",
+  "otherNight": 4
+},
+{
+  "id": "savitribai",
+  "edition": "diyas",
+  "otherNightReminder": "Once per game, at night*, choose a dead player. If they are a Townsfolk, they are resurrected.",
+  "reminders": [
+    "Resurrect",
+    "Used"
+  ],
+  "name": "Savitribai",
+  "team": "townsfolk",
+  "ability": "Once per game, at night*, choose a dead player. They are resurrected.",
+  "otherNight": 15
+},
+{
+  "id": "yama",
+  "edition": "diyas",
+  "reminders": [
+    "Used ability"
+  ],
+  "name": "Yama",
+  "team": "townsfolk",
+  "ability": "Once per game, publicly use your ability. That day, only you & the dead can nominate and vote. A vote token or a majority isn't required."
+},
+{
+  "id": "ram",
+  "edition": "diyas",
+  "name": "Ram",
+  "team": "townsfolk",
+  "ability": "Any nominations made by you or on you, follow the rules of an exile."
+},
+{
+  "id": "ganesh",
+  "edition": "diyas",
+  "otherNightReminder": "If there are 4 or fewer alive, you lose this ability.",
+  "reminders": [
+    "Demon voted",
+    "Drunk"
+  ],
+  "name": "Ganesh",
+  "team": "townsfolk",
+  "ability": "You cannot be executed unless the demon votes for you. You are safe from the demon. If just <= 4 players live, you lose this ability.",
+  "flavor": "Shiva cut off his head because of something wrongly accused, so he was kept alive and given an elephant head instead.",
+  "otherNight": 14
+},
+{
+  "id": "durga",
+  "edition": "diyas",
+  "firstNightReminder": "You learn who the demon is. If an executed Demon publicly guesses you (once), evil wins, even if you're dead. [+1 Outsider]",
+  "setup": true,
+  "name": "Durga",
+  "team": "townsfolk",
+  "ability": "You learn who the demon is. If an executed Demon publicly guesses you (once), evil wins, even if you're dead. [+1 Outsider]",
+  "firstNight": 11
+},
+{
+  "id": "narasimha",
+  "edition": "diyas",
+  "otherNightReminder": "Each night*, if Hiranyakashipu is your alive neighbour, they die. [+ Hiranyakashipu]",
+  "name": "Narasimha",
+  "team": "townsfolk",
+  "ability": "Each night*, if Hiranyakashipu is your alive neighbour, they die. [+ Hiranyakashipu]",
+  "otherNight": 16
+},
+{
+  "id": "kalki",
+  "edition": "diyas",
+  "otherNightReminder": "If you were killed by the Demon, you get resurrected on the night with <= 4 players alive, with a not-in-play Townsfolk ability.",
+  "reminders": [
+    "Is Kalki",
+    "Will rise on Final Night"
+  ],
+  "name": "Kalki",
+  "team": "townsfolk",
+  "ability": "If you were killed by the Demon, you get resurrected on the night with <= 4 players alive, with a not-in-play Townsfolk ability.",
+  "otherNight": 13
+},
+{
+  "id": "ashwathama",
+  "edition": "diyas",
+  "firstNightReminder": "On your 1st night, choose 3 players (not yourself); 1 is poisoned, 1 might die at anytime, and 1 is safe from all evil abilities; even if you are dead.",
+  "reminders": [
+    "Poisoned",
+    "Tinker ",
+    "Safe from evil"
+  ],
+  "name": "Ashwathama",
+  "team": "outsider",
+  "ability": "On your 1st night, choose 3 players (not yourself); 1 is poisoned, 1 might die at anytime, and 1 is safe from all evil abilities; even if you are dead.",
+  "firstNight": 19
+},
+{
+  "id": "vibhishan",
+  "edition": "diyas",
+  "firstNightReminder": "You start as an Evil player. If dead equal or outnumber the living, you lose this ability.",
+  "otherNightReminder": "You start as an Evil player. If dead equal or outnumber the living, you lose this ability.",
+  "reminders": [
+    "Evil",
+    "Good"
+  ],
+  "name": "Vibhishan",
+  "team": "outsider",
+  "ability": "You start as an Evil player. If dead equal or outnumber the living, you lose this ability.",
+  "firstNight": 18,
+  "otherNight": 5
+},
+{
+  "id": "kaikeyi",
+  "edition": "diyas",
+  "firstNightReminder": "1 good and 1 evil player have their positions swapped in the Grimoire.",
+  "otherNightReminder": "If dead, put back both characters in the grimoire.",
+  "reminders": [
+    "Swapped position",
+    "Swapped Position"
+  ],
+  "name": "Kaikeyi",
+  "team": "outsider",
+  "ability": "1 good and 1 evil player have their positions swapped in the Grimoire.",
+  "flavor": "Chose to swap her sons, making Bharata take Ram's rightful place and send Ram to exile. ",
+  "firstNight": 14,
+  "otherNight": 2
+},
+{
+  "id": "curseofyayati",
+  "edition": "diyas",
+  "firstNightReminder": "Cursed/Drunk",
+  "reminders": [
+    "Cursed"
+  ],
+  "remindersGlobal": [
+    "Cursed"
+  ],
+  "name": "Curse of Yayati",
+  "team": "outsider",
+  "ability": "1 Townsfolk starts unknowingly with the Curse of Yayati. They are drunk and might register as Evil, minion or demon. The Curse passes to whoever nominates them.",
+  "firstNight": 12
+},
+{
+  "id": "atanu",
+  "edition": "diyas",
+  "firstNightReminder": "Each night, choose 2 alive players. If they have a private discussion with each other, both are poisoned until dawn.",
+  "otherNightReminder": "Each night, choose 2 alive players. If they have a private discussion with each other, both are poisoned until dawn.",
+  "reminders": [
+    "Soul Linked",
+    "Soul Linked",
+    "Poisoned",
+    "Poisoned"
+  ],
+  "name": "Atanu",
+  "team": "minion",
+  "ability": "Each night, choose 2 alive players. If they have a private discussion with each other, both are poisoned until dawn.",
+  "firstNight": 26,
+  "otherNight": 20
+},
+{
+  "id": "shurpanakha",
+  "edition": "diyas",
+  "otherNightReminder": "Each day, if any nomination does not get enough votes, either the nominator or the nominee might die tonight.",
+  "reminders": [
+    "Dies tonight",
+    "Nominee",
+    "Nominator"
+  ],
+  "name": "Shurpanakha",
+  "team": "minion",
+  "ability": "Each day, if any nomination does not get enough votes, either the nominator or the nominee might die tonight.",
+  "otherNight": 7
+},
+{
+  "id": "amba",
+  "edition": "diyas",
+  "otherNightReminder": "If you die by execution, an alive minion may swap roles with the demon. That night, you kill upto the number of alive evil players. ",
+  "reminders": [
+    "Kill",
+    "Swap Roles"
+  ],
+  "name": "Amba",
+  "team": "minion",
+  "ability": "If you die by execution, an alive minion may swap roles with the demon. That night, you kill upto the number of alive evil players.",
+  "otherNight": 12
+},
+{
+  "id": "hiranyakashipu",
+  "edition": "diyas",
+  "firstNightReminder": "You keep your eyes open at night.",
+  "otherNightReminder": "You keep your eyes open at night.",
+  "name": "Hiranyakashipu",
+  "team": "minion",
+  "ability": "You cannot die by execution. Everyone knows who you are. You keep your eyes open at night.",
+  "firstNight": 15,
+  "otherNight": 3
+},
+{
+  "id": "raavana",
+  "edition": "diyas",
+  "firstNightReminder": "Choose a Townsfolk ability to be disguised as. Gain that ability. ",
+  "otherNightReminder": "Choose a player, they die. You might register as good or that character.",
+  "reminders": [
+    "Dies"
+  ],
+  "name": "Raavana",
+  "team": "demon",
+  "ability": "Each night*, choose a player, they die. Choose one demon bluff, you gain that ability. You may register as good or that character to Townsfolk abilities. [+1 Outsider]",
+  "flavor": "Raavana cannot be killed by the Gods or powers. Only by humans",
+  "firstNight": 17,
+  "otherNight": 8
+},
+{
+  "id": "shakuni",
+  "edition": "diyas",
+  "otherNightReminder": "Each night* choose a player, they die. If you also correctly guess their character, you get to pick again.",
+  "reminders": [
+    "Dies"
+  ],
+  "name": "Shakuni",
+  "team": "demon",
+  "ability": "Each night* choose a player, they die. If you also correctly guess their character, you get to pick again.",
+  "flavor": "Shakuni - amazing at playing dice and pushing his luck",
+  "otherNight": 9
+},
+{
+  "id": "kumbhakarna",
+  "edition": "diyas",
+  "otherNightReminder": "Each night*, choose if you wish to wake up or not. For each night you have not woken up in the game, choose a player, they die. ",
+  "reminders": [
+    "1 Night",
+    "2 Nights",
+    "3 Nights",
+    "4 Nights",
+    "5 Nights",
+    "Dies"
+  ],
+  "name": "Kumbhakarna",
+  "team": "demon",
+  "ability": "Each night*, choose if you wish to wake up or not. For each night you have not woken up in the game, choose a player, they die. ",
+  "flavor": "Kumbhakarna sleepsa lot. But when we wakes up, destruction!",
+  "otherNight": 10
+},
+{
+  "id": "mahishasura",
+  "edition": "diyas",
+  "otherNightReminder": "Each night*, choose a player, they die. You gain all not-in-play Minion abilities until there are <= 4 players alive.",
+  "reminders": [
+    "Dies",
+    "Atanu",
+    "Shurpanakha",
+    "Amba",
+    "Hiranyakashipu"
+  ],
+  "name": "Mahishasura",
+  "team": "demon",
+  "ability": "Each night*, choose a player, they die. You gain all not-in-play Minion abilities until there are <= 4 players alive.",
+  "otherNight": 11
+}
 ]
-

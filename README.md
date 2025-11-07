@@ -28,7 +28,7 @@ You can also edit the .tex file directly to add spacing and custom things, scrip
 ![Trouble Brewing Example](https://github.com/LectronPusher/botc-custom-script-generator/blob/main/Trouble%20Brewing%20back.png?raw=true)
 
 
-### What SOni did
+### What Soni did
 
 ```bash
 python generate_script.py

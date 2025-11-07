@@ -39,8 +39,8 @@
 % ------------------------- script front -------------------------
 
 \newcommand{\scriptname}[1]{
-	\hspace{-35pt}
-	\centerline{\Large{\textit{#1}}}
+	\hspace{-20pt}
+	\centerline{\Large\textit{#1}}
 	\smallskip
 }
 
@@ -66,7 +66,7 @@
 \newcolumntype{D}{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{\descwidth}}
 % and custom table spacing
 \setlength{\tabcolsep}{2pt}
-\renewcommand{\arraystretch}{0.85}
+\renewcommand{\arraystretch}{0.9}
 
 % these handle the two column nature of the character table
 \newcounter{chartypes}
@@ -76,9 +76,9 @@
 
 \newenvironment{chartype}[1]{ % 1: character type
 	\stepcounter{chartypes}
-	\rule[3pt]{2in}{0.5pt}
+	\rule[3pt]{2in}{1.5pt}
 	\hfill {\large \textbf{#1}} \hfill
-	\rule[3pt]{2in}{0.5pt}
+	\rule[3pt]{2in}{1.5pt}
 	\\
 	\begin{tabular}{@{} I D @{\hspace{\betweenwidth}} I D @{}}
 }{
@@ -93,9 +93,9 @@
 \newcommand{\character}[3]{ % 1: character id, 2: name, 3: description
 	\characterimage{\linewidth}{#1.png}
 & {\small\textbf{#2}}
-	\newline \vspace{-0.00em}
+	\newline \vspace{.1em}
 	\scriptsize #3
-	\vspace{0.15em}
+	\vspace{.15em}
 	% this handles the two column nature of the character table
 	\stepcounter{chars_in_type} % 1 indexing
 	\ifthenelse{\isodd{\value{chars_in_type}}} {&} {\\}
