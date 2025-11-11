@@ -211,15 +211,15 @@
 {
   "id": "vibhishan",
   "edition": "diyas",
-  "firstNightReminder": "You start as an Evil player. If dead equal or outnumber the living, you lose this ability.",
-  "otherNightReminder": "You start as an Evil player. If dead equal or outnumber the living, you lose this ability.",
+  "firstNightReminder": "You start as an Evil player.",
+  "otherNightReminder": "If dead equal or outnumber the living, you become Good.",
   "reminders": [
     "Evil",
     "Good"
   ],
   "name": "Vibhishan",
   "team": "outsider",
-  "ability": "You start as an Evil player. If dead equal or outnumber the living, you lose this ability.",
+  "ability": "You start as an Evil player. If dead equal or outnumber the living, you become Good.",
   "firstNight": 18,
   "otherNight": 5
 },
